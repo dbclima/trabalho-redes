@@ -193,7 +193,7 @@ def salvar_dados(dict_parametros: Dict, output_file: Path) -> None:
 
 def main():
     pasta_grafos = Path("../grafos/")
-    pasta_conversores = Path("../data/")
+    pasta_conversores = Path("../conversores/")
 
     if not pasta_grafos.is_dir() or not pasta_conversores.is_dir():
         print("[ERRO] Dependências não encontradas.\n")
